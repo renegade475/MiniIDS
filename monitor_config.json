@@ -1,0 +1,18 @@
+{
+  "detection_thresholds": {
+    "port_scan_threshold": 10,
+    "dns_threshold": 50,
+    "arp_threshold": 5,
+    "time_window": 60
+  },
+  "monitoring": {
+    "default_interface": "auto",
+    "packet_timeout": 15,
+    "max_alerts": 1000
+  },
+  "export": {
+    "siem_format": "cef",
+    "auto_export": false,
+    "export_interval": 3600
+  }
+}
