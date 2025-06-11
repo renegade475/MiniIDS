@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.db
+*.spec
+build/
+dist/
+*.exe
+gui_alerts_export.json
+network_security_export.json
